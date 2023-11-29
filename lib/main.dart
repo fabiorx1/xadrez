@@ -32,10 +32,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  late final List<QuadradoUI> pecas;
+  late final List<QuadradoUI> quadrados;
   @override
   void initState() {
-    pecas = [for (int i = 0; i <= 8 * 8; i++) QuadradoUI(onTap: () {})];
+    quadrados = [for (int i = 0; i < 8 * 8; i++) QuadradoUI(onTap: () {})];
     super.initState();
   }
 
@@ -47,12 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         body: Center(
-          child: GridView.count(
-            crossAxisCount: 8,
-            children: [
-              for (int i = 0; i <= 8 * 8; i++) QuadradoUI(onTap: () {}),
-            ],
-          ),
+          child: GridView.count(crossAxisCount: 8, children: quadrados),
         ));
   }
 }

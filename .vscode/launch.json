@@ -1,0 +1,292 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "AppAnime",
+      "cwd": "Users/joaovitoramorim/code/AppAnime",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "AppAnime (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/AppAnime",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "AppAnime (release mode)",
+      "cwd": "Users/joaovitoramorim/code/AppAnime",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "amigos_do_joao",
+      "cwd": "Users/joaovitoramorim/code/amigos_do_joao",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "amigos_do_joao (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/amigos_do_joao",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "amigos_do_joao (release mode)",
+      "cwd": "Users/joaovitoramorim/code/amigos_do_joao",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "app_builder",
+      "cwd": "Users/joaovitoramorim/code/app_builder",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "app_builder (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/app_builder",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "app_builder (release mode)",
+      "cwd": "Users/joaovitoramorim/code/app_builder",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "app_builder_sdk",
+      "cwd": "Users/joaovitoramorim/code/app_builder_sdk",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "app_builder_sdk (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/app_builder_sdk",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "app_builder_sdk (release mode)",
+      "cwd": "Users/joaovitoramorim/code/app_builder_sdk",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "app_builder_sdk_import",
+      "cwd": "Users/joaovitoramorim/code/app_builder_sdk_import",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "app_builder_sdk_import (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/app_builder_sdk_import",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "app_builder_sdk_import (release mode)",
+      "cwd": "Users/joaovitoramorim/code/app_builder_sdk_import",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "app_cliente",
+      "cwd": "Users/joaovitoramorim/code/app_cliente",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "app_cliente (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/app_cliente",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "app_cliente (release mode)",
+      "cwd": "Users/joaovitoramorim/code/app_cliente",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "bailaki-app",
+      "cwd": "Users/joaovitoramorim/code/bailaki-app",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "bailaki-app (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/bailaki-app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "bailaki-app (release mode)",
+      "cwd": "Users/joaovitoramorim/code/bailaki-app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "dashboard",
+      "cwd": "Users/joaovitoramorim/code/dashboard",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "dashboard (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/dashboard",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "dashboard (release mode)",
+      "cwd": "Users/joaovitoramorim/code/dashboard",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_getx_template",
+      "cwd": "Users/joaovitoramorim/code/flutter_getx_template",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_getx_template (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/flutter_getx_template",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_getx_template (release mode)",
+      "cwd": "Users/joaovitoramorim/code/flutter_getx_template",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "modular_sdk",
+      "cwd": "Users/joaovitoramorim/code/modular_sdk",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "modular_sdk (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/modular_sdk",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "modular_sdk (release mode)",
+      "cwd": "Users/joaovitoramorim/code/modular_sdk",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "my_app",
+      "cwd": "Users/joaovitoramorim/code/my_app",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "my_app (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/my_app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "my_app (release mode)",
+      "cwd": "Users/joaovitoramorim/code/my_app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "test",
+      "cwd": "Users/joaovitoramorim/code/test",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "test (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/test",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "test (release mode)",
+      "cwd": "Users/joaovitoramorim/code/test",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "web_ineer",
+      "cwd": "Users/joaovitoramorim/code/web_ineer",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "web_ineer (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/web_ineer",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "web_ineer (release mode)",
+      "cwd": "Users/joaovitoramorim/code/web_ineer",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "xadrez",
+      "cwd": "Users/joaovitoramorim/code/xadrez",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "xadrez (profile mode)",
+      "cwd": "Users/joaovitoramorim/code/xadrez",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "xadrez (release mode)",
+      "cwd": "Users/joaovitoramorim/code/xadrez",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Flutter Tests",
+      "program": "test",
+      "cwd": "Users/joaovitoramorim/code/AppAnime",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}
