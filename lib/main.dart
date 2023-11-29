@@ -34,23 +34,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  late final List<QuadradoUI> quadrados;
-
-  final Peca peao = Peca(
-    splashPath: 'peao.png',
-    tipo: TipoPeca.peao,
-  );
+  final Peca peao = Peca(splashPath: 'peao.png', tipo: TipoPeca.peao);
+  late final Map<int, Peca> pecas = {17: peao};
   int? selected;
 
   @override
   void initState() {
-    quadrados = [
-      for (int i = 0; i < 8 * 8; i++)
-        QuadradoUI(
-          onTap: () {},
-          p: i == 17 ? peao : null,
-        ),
-    ];
     super.initState();
   }
 
@@ -62,10 +51,29 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         body: Center(
-          child: tabuleiro(),
-        ));
+            child: GridView.count(crossAxisCount: 8, children: [
+          for (int i = 0; i < 8 * 8; i++)
+            QuadradoUI(
+              color: i == selected ? widget.selectedColor : null,
+              onTap: () => onClick(i),
+              p: pecas.containsKey(i) ? pecas[i] : null,
+            ),
+        ])));
   }
 
-  GridView tabuleiro() =>
-      GridView.count(crossAxisCount: 8, children: quadrados);
+  void onClick(int i) {
+    debugPrint('$i');
+    if (selected == i) {
+      setState(() => selected = null);
+    } else if (selected != null) {
+      onClickMove(i);
+      return;
+    } else {
+      setState(() => selected = i);
+    }
+  }
+
+  void onClickMove(int i) {
+    debugPrint("Move");
+  }
 }
