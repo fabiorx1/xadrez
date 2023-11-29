@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:xadrez/peca.dart';
 import 'package:xadrez/views/peca.dart';
 
 void main() {
@@ -33,9 +34,21 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   late final List<QuadradoUI> quadrados;
+
+  final Peca peao = Peca(
+    splashPath: 'peao.png',
+    tipo: TipoPeca.peao,
+  );
+
   @override
   void initState() {
-    quadrados = [for (int i = 0; i < 8 * 8; i++) QuadradoUI(onTap: () {})];
+    quadrados = [
+      for (int i = 0; i < 8 * 8; i++)
+        QuadradoUI(
+          onTap: () {},
+          p: i == 17 ? peao : null,
+        ),
+    ];
     super.initState();
   }
 
@@ -47,7 +60,10 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         body: Center(
-          child: GridView.count(crossAxisCount: 8, children: quadrados),
+          child: tabuleiro(),
         ));
   }
+
+  GridView tabuleiro() =>
+      GridView.count(crossAxisCount: 8, children: quadrados);
 }

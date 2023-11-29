@@ -41,7 +41,14 @@ class _QuadradoUIState extends State<QuadradoUI> {
             onExit: (_) => stayChill(),
             child: Material(
               color: color,
-              child: const Center(), // here goes the peça icon
+              child: Center(
+                child: AspectRatio(
+                  aspectRatio: 0.5,
+                  child: widget.p != null
+                      ? Image.asset(widget.p!.splashPath)
+                      : const Center(),
+                ),
+              ), // here goes the peça icon
             )),
       ),
     );
