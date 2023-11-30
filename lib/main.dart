@@ -172,14 +172,14 @@ class _MyHomePageState extends State<MyHomePage> {
       case TipoPeca.rei:
       // TODO: Handle this case.
       case TipoPeca.rainha:
-        straightMoves(y, x, peca, moves);
+        lineMoves(y, x, peca, moves);
       case TipoPeca.torre:
-        straightMoves(y, x, peca, moves);
+        lineMoves(y, x, peca, moves);
     }
     return moves;
   }
 
-  void straightMoves(int y, int x, Peca peca, List<int> moves) {
+  void lineMoves(int y, int x, Peca peca, List<int> moves) {
     for (int j = y + 1; j < 8; j++) {
       if (pecas.containsKey(8 * j + x)) {
         if (pecas[8 * j + x]!.isW != peca.isW) moves.add(8 * j + x);
